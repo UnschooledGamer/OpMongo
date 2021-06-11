@@ -10,6 +10,7 @@
 Note you need to use await to get output otherwise it will show [Object Object] else undefined
 ```js
 const { OP } = require("opmongo");
+const { OP } = require("/data/data/com.astrosohu/files/usr/lib/node_modules/opmongo"); //use this if you are using this in Astro nodeJS
 const db = new OP("mongodb://localhost/SanikavaDB");
 
 
